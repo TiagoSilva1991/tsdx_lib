@@ -6,7 +6,7 @@ function Button({
 }: Props) {
   return (
     <button type="button" onClick={onClick} disabled={disabled} className="test" {...props}>
-      {text}
+      {text} text
     </button>
   );
 }
